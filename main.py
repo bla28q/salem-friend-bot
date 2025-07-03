@@ -1,6 +1,7 @@
 import random
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
+from telegram.ext import ContextTypes
 import logging
 
 # Включаємо логування
