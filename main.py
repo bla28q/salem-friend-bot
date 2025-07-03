@@ -6,7 +6,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Messa
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # Токен твого бота
-BOT_TOKEN = "7514116659:AAFiBxBvR49gV80OHeMSaE03vMZWMidjuTM"
+BOT_TOKEN = "7723663413:AAG8XZe97v..."  # твій реальний токен
 
 # Стартова команда
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
